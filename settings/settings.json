@@ -346,6 +346,13 @@
                         "default": "true"
                     },
                     {
+                        "title": "Use Movie Poster",
+                        "description": "Use movie posters rather than wide posters for series. Jellyfin will need to be closed and reopened for change to take effect.",
+                        "settingName": "ui.home.useMoviePoster",
+                        "type": "bool",
+                        "default": "false"
+                    },
+                    {
                         "title": "Use Splashscreen as Home Background",
                         "description": "Use generated splashscreen image as Jellyfin's home background. Jellyfin will need to be closed and reopened for change to take effect.",
                         "settingName": "ui.home.splashBackground",
