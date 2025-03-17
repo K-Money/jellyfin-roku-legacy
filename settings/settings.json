@@ -298,7 +298,7 @@
                         "description": "Set the maximum number of items to show in Latest Items section. Jellyfin will need to be closed and reopened for change to take effect.",
                         "settingName": "ui.details.maxLatestItems",
                         "type": "integer",
-                        "default": "16"
+                        "default": "60"
                     },
                     {
                         "title": "OSD Remaining Time",
