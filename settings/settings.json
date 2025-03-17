@@ -294,6 +294,13 @@
                         "default": "365"
                     },
                     {
+                        "title": "Max Latest Items",
+                        "description": "Set the maximum number of items to show in Latest Items section. Jellyfin will need to be closed and reopened for change to take effect.",
+                        "settingName": "ui.details.maxLatestItems",
+                        "type": "integer",
+                        "default": "16"
+                    },
+                    {
                         "title": "OSD Remaining Time",
                         "description": "How is remaining time represented.  Remaining time shows hours, minutes, and seconds remaining.  Time of day shows what time the video will complete.",
                         "settingName": "ui.general.osdremainingtime",

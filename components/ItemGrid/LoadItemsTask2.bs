@@ -12,7 +12,7 @@ sub init()
     m.top.functionName = "loadItems"
 
     m.top.limit = 60
-    usersettingLimit = m.global.session.user.settings["itemgrid.Limit"]
+    usersettingLimit = m.global.session.user.settings["ui.details.maxLatestItems"].ToInt()
 
     if usersettingLimit <> invalid
         m.top.limit = usersettingLimit
